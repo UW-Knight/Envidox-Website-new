@@ -37,26 +37,24 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-black font-sans antialiased",
           fontSans.variable,
         )}
       >
-        <div className="edge-aurora edge-aurora-top"></div>
-        <div className="edge-aurora edge-aurora-bottom"></div>
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col h-screen bg-black">
             <Navbar />
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
+            <footer className="w-full flex items-center justify-center py-3 border-t border-gray-800">
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
                 href="https://easyui.pro"
                 title="easyui.pro homepage"
               >
-                <span className="text-default-600">Powered by</span>
+                <span className="text-gray-500">Powered by</span>
                 <p className="rainbow-text font-semibold">Easy UI</p>
               </Link>
             </footer>

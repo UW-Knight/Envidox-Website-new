@@ -29,7 +29,7 @@ export default function Home() {
             </h1>
             <br />
             <h1 className={title({ size: "lg" })}>Websites using Easy NextUI</h1>
-            <h2 className="font-normal rainbow-text py-2">
+            <h2 className="font-normal text-gray-400 py-2">
               Beautiful, fast and modern Easy UI template.
             </h2>
           </div>
@@ -60,60 +60,60 @@ export default function Home() {
         <div className="flex-1 w-full max-w-lg relative">
           <div className="grid grid-cols-6 grid-rows-6 gap-3 h-[500px]">
             {/* Large Card - Top Left */}
-            <div className="col-span-4 row-span-3 rainbow-gradient rounded-3xl p-6 relative overflow-hidden shadow-xl">
+            <div className="col-span-4 row-span-3 bg-gradient-to-br from-pink-600/20 to-purple-600/20 border border-gray-800 rounded-3xl p-6 relative overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80"
                 alt="Design"
-                className="w-full h-full object-cover absolute inset-0 opacity-30"
+                className="w-full h-full object-cover absolute inset-0 opacity-10"
               />
               <div className="relative z-10">
-                <span className="inline-block bg-white/90 backdrop-blur-sm rainbow-text px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                <span className="inline-block bg-gray-900/90 backdrop-blur-sm text-gray-100 px-4 py-2 rounded-full text-sm font-semibold border border-gray-700">
                   🎨 Design
                 </span>
               </div>
             </div>
 
             {/* Small Round Cutout - Top Right */}
-            <div className="col-span-2 row-span-2 rainbow-gradient rounded-full p-4 relative overflow-hidden shadow-xl flex items-center justify-center">
+            <div className="col-span-2 row-span-2 bg-gradient-to-br from-cyan-600/20 to-blue-600/20 border border-gray-800 rounded-full p-4 relative overflow-hidden flex items-center justify-center">
               <img
                 src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80"
                 alt="User"
-                className="w-full h-full object-cover absolute inset-0 opacity-20"
+                className="w-full h-full object-cover absolute inset-0 opacity-10"
               />
-              <span className="relative z-10 bg-white/90 backdrop-blur-sm rainbow-text px-3 py-1.5 rounded-full text-xs font-semibold shadow-lg">
+              <span className="relative z-10 bg-gray-900/90 backdrop-blur-sm text-gray-100 px-3 py-1.5 rounded-full text-xs font-semibold border border-gray-700">
                 👤 Profile
               </span>
             </div>
 
             {/* Tall Card - Right Side */}
-            <div className="col-span-2 row-span-4 rainbow-gradient rounded-3xl p-4 relative overflow-hidden shadow-xl">
+            <div className="col-span-2 row-span-4 bg-gradient-to-br from-purple-600/20 to-pink-600/20 border border-gray-800 rounded-3xl p-4 relative overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&q=80"
                 alt="Code"
-                className="w-full h-full object-cover absolute inset-0 opacity-20"
+                className="w-full h-full object-cover absolute inset-0 opacity-10"
               />
               <div className="relative z-10 h-full flex flex-col justify-between">
-                <span className="inline-block bg-white/90 backdrop-blur-sm rainbow-text px-3 py-2 rounded-full text-sm font-semibold shadow-lg w-fit">
+                <span className="inline-block bg-gray-900/90 backdrop-blur-sm text-gray-100 px-3 py-2 rounded-full text-sm font-semibold border border-gray-700 w-fit">
                   💻 Code
                 </span>
-                <span className="inline-block bg-white/90 backdrop-blur-sm rainbow-text px-3 py-2 rounded-full text-xs font-semibold shadow-lg w-fit">
+                <span className="inline-block bg-gray-900/90 backdrop-blur-sm text-gray-100 px-3 py-2 rounded-full text-xs font-semibold border border-gray-700 w-fit">
                   ⚡ Fast
                 </span>
               </div>
             </div>
 
             {/* Wide Card - Bottom Left */}
-            <div className="col-span-4 row-span-3 rainbow-gradient rounded-3xl p-6 relative overflow-hidden shadow-xl">
+            <div className="col-span-4 row-span-3 bg-gradient-to-br from-blue-600/20 to-cyan-600/20 border border-gray-800 rounded-3xl p-6 relative overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
                 alt="Analytics"
-                className="w-full h-full object-cover absolute inset-0 opacity-25"
+                className="w-full h-full object-cover absolute inset-0 opacity-10"
               />
               <div className="relative z-10 flex gap-2 flex-wrap">
-                <span className="inline-block bg-white/90 backdrop-blur-sm rainbow-text px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                <span className="inline-block bg-gray-900/90 backdrop-blur-sm text-gray-100 px-4 py-2 rounded-full text-sm font-semibold border border-gray-700">
                   📊 Analytics
                 </span>
-                <span className="inline-block bg-white/90 backdrop-blur-sm rainbow-text px-3 py-2 rounded-full text-sm font-semibold shadow-lg">
+                <span className="inline-block bg-gray-900/90 backdrop-blur-sm text-gray-100 px-3 py-2 rounded-full text-sm font-semibold border border-gray-700">
                   ✨ Modern
                 </span>
               </div>
@@ -136,7 +136,7 @@ export default function Home() {
       </ScrollWrapper>
       <ScrollWrapper>
         <div className="mt-20 lg:mt-60 flex-col justify-center items-center mx-auto">
-          <h1 className="text-2xl lg:text-4xl font-semibold rainbow-text flex- justify-center items-center mx-auto text-center">
+          <h1 className="text-2xl lg:text-4xl font-semibold text-white flex- justify-center items-center mx-auto text-center">
             Features
           </h1>
           <FeaturesBento />

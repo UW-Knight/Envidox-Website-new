@@ -8,61 +8,59 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {
-      animation: {
-        'rainbow-flow': 'rainbow-flow 6s linear infinite',
-        'aurora': 'aurora 20s ease-in-out infinite',
-        'edge-glow': 'edge-glow 8s ease-in-out infinite',
-      },
-    },
+    extend: {},
   },
   darkMode: "class",
   plugins: [nextui({
     themes: {
       dark: {
         colors: {
+          background: "#000000",
+          foreground: "#ffffff",
           primary: {
-            DEFAULT: "#ff0080",
+            DEFAULT: "#0070f3",
             foreground: "#ffffff",
           },
           secondary: {
-            DEFAULT: "#00b3ff",
+            DEFAULT: "#7928ca",
             foreground: "#ffffff",
           },
           success: {
-            DEFAULT: "#00ff80",
-            foreground: "#000000",
+            DEFAULT: "#0070f3",
+            foreground: "#ffffff",
           },
           warning: {
-            DEFAULT: "#ffb300",
-            foreground: "#000000",
+            DEFAULT: "#ff0080",
+            foreground: "#ffffff",
           },
           danger: {
-            DEFAULT: "#ff4d00",
+            DEFAULT: "#ff0080",
             foreground: "#ffffff",
           },
         },
       },
       light: {
         colors: {
+          background: "#ffffff",
+          foreground: "#000000",
           primary: {
-            DEFAULT: "#ff0080",
+            DEFAULT: "#0070f3",
             foreground: "#ffffff",
           },
           secondary: {
-            DEFAULT: "#00b3ff",
+            DEFAULT: "#7928ca",
             foreground: "#ffffff",
           },
           success: {
-            DEFAULT: "#00ff80",
-            foreground: "#000000",
+            DEFAULT: "#0070f3",
+            foreground: "#ffffff",
           },
           warning: {
-            DEFAULT: "#ffb300",
-            foreground: "#000000",
+            DEFAULT: "#ff0080",
+            foreground: "#ffffff",
           },
           danger: {
-            DEFAULT: "#ff4d00",
+            DEFAULT: "#ff0080",
             foreground: "#ffffff",
           },
         },
