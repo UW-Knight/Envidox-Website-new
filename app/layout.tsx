@@ -41,6 +41,8 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
+        <div className="edge-aurora edge-aurora-top"></div>
+        <div className="edge-aurora edge-aurora-bottom"></div>
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
@@ -55,7 +57,7 @@ export default function RootLayout({
                 title="easyui.pro homepage"
               >
                 <span className="text-default-600">Powered by</span>
-                <p className="text-primary">Easy UI</p>
+                <p className="rainbow-text font-semibold">Easy UI</p>
               </Link>
             </footer>
           </div>
